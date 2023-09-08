@@ -9,7 +9,7 @@ let paramsDefault = {
     },
     optionsChat: {
         buttonTarget: `https://api.whatsapp.com/send?`,
-        message:'Hello',
+        message:'Hello Kizearth Tech, I would like to request a quotation for?',
         phone:'+2348039142435',
         text: 'Send'
     },
