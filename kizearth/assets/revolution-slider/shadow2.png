@@ -7,6 +7,10 @@
 <title>404</title>
 <meta http-equiv="Cache-Control" content="no-cache"/>
 </head>
+<script src="js/whatsapp-widget.js"></script>
+        <script>
+            initWidget()
+        </script>
 <body>
 <p>
 Sorry! This page does not exist 
