@@ -1670,6 +1670,7 @@ ul.flat-list.style2 {
     margin-top: 30px;
     margin-bottom: 40px;
     border-radius: 10px;
+    transition: all ease-in-out 0.5s;
 }
 .contact-now:hover {
     background-color: #092147;
