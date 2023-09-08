@@ -15,6 +15,8 @@
 @import url("jquery.fancybox.css");
 @import url("https://fonts.googleapis.com/css?family=Hind+Siliguri:400,300,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Hind+Vadodara:400,300,500,600,700");
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400&display=swap');
 
 /** 
   * Reset
@@ -2285,6 +2287,40 @@ a.link:hover {
     right: 0;
     left: auto;
 }
+.start-now {
+    display: inline-block;
+    position: relative;
+}
+.st-img {
+    box-sizing: border-box;
+    margin: 20px 40px;
+    float: left;
+
+}
+.st-text {
+    margin-left: 40px;
+}
+.st-text>h1 {
+    font-family: "Sora", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 31px;
+    text-transform: capitalize !important;
+    color: #000;
+    /* margin-left: 40px; */
+    display: inline-block;
+}
+.st-text>h5 {
+    color: #2E2E2E;
+    font-family: "Karla", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: none;
+    padding-top: 20px;
+    /* margin-left: 40px; */
+    box-sizing: border-box;
+}
 
 /* Comment form */
 .comments-area .comment-respond .comment-reply-title {
@@ -2758,33 +2794,20 @@ a.link:hover {
 	  	opacity: 0;
     
 }
-.whatsapp {
-    position: fixed !important;
-    left: -35px;
-    bottom: 20px;   
-    width: 40px;
-    height: 40px;
-    cursor: pointer;   
-    background-color: green;
-    line-height: 40px;
-    text-align: center;   	
-    /* -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-     -ms-transition: all 0.3s ease-in-out;
-      -o-transition: all 0.3s ease-in-out;
-         transition: all 0.3s ease-in-out;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-        filter: alpha(opacity=0); */
-       opacity: 0;
-}
+
 .go-top.show {
-	right: 25px;
+	right: 35px;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: alpha(opacity=100);
 	opacity: 1;
 	visibility: visible;
 }
 
+.whatsapp-icon {
+    float: left;
+    /* display: ; */
+    left: 20px;
+}
 .go-top i {
 	font-size: 14px;
 	color: #fff;

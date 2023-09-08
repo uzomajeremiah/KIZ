@@ -691,7 +691,7 @@
     var retinaLogos = function() {
       var retina = window.devicePixelRatio > 1 ? true : false;
         if( retina ) {
-            $( '.header .logo' ).find('img').attr( {src:'./images/logo@2x.png',width:'123',height:'30'} );   
+            $( '.header .logo' ).find('img').attr( {src:'../images/logo@2x.png',width:'123',height:'30'} );   
         }
     };    
     

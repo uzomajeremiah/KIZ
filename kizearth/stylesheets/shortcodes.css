@@ -1660,6 +1660,20 @@ ul.flat-list.style2 {
 .flat-imagebox {
     margin: 0 -15px;
 }
+.contact-now-d {
+   margin-left: 40px;
+}
+.contact-now {
+    background-color: #E95304;
+    color: #fff;
+    padding: 15px 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.contact-now:hover {
+    background-color: #092147;
+}
 
 .flat-imagebox .item-three-column {
     float: left;
